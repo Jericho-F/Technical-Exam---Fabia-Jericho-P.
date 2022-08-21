@@ -1,0 +1,126 @@
+.middle{
+    width: 80em;
+    height: 500px;
+    max-width: 100%;
+   
+    
+
+    margin: 0 20px 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-img{
+    width: 50px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.middle .mid-content{
+    border: 0;
+    border-radius: 30px;
+
+    background: var(--dark);
+
+    height: 150px;
+    width: 700px;
+}
+
+.middle .mid-content .post-section{
+    display: flex;
+
+    margin-left: 80px;
+    margin-top: -50px;
+
+
+}
+
+.middle .mid-content .post-image{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.post-bar{
+    border-radius: 50px;
+    border: 0;
+
+    background: var(--gray);
+    color: white;
+
+    padding: 15px;
+
+    width: 500px;
+    
+    font-size: 20px;
+
+}
+
+.post-button{
+    border: 0;
+    border-radius: 50px;
+
+    background: var(--darkest);
+    color: var(--pink);
+
+    padding: 15px;
+    margin-left: 4px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.post-button:hover{
+    background: var(--darker);
+    color: var(--pink);
+}
+
+
+input::placeholder{
+    font-size: 20px;
+    color: var(--darker);
+}
+
+.bottom-options{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+
+.bottom-options .go-live-button{
+    font-size: 40px;
+    padding: 0  0 ;
+    background: var(--dark);
+    color: red;
+}
+
+
+.bottom-options .image-vids{
+    font-size: 40px;
+    padding: 0  0 ;
+    background: var(--dark);
+    color: rgb(131, 241, 131);
+}
+
+
+.bottom-options .mood{
+    font-size: 40px;
+    padding: 0  0 ;
+    background: var(--dark);
+    color: rgb(236, 222, 116);
+
+}
+
+.post-text{
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    margin-top: -42px;
+    margin-left: 40px;
+    margin-right: 10px;
+
+}

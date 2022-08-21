@@ -1,0 +1,10 @@
+.bottom-left{
+    height: 400px;
+    width: 250px;
+
+    border: 0;
+    border-radius: 30px;
+    background: var(--dark);
+
+    margin-top: 40px;
+}

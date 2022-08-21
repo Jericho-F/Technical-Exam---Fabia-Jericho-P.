@@ -1,0 +1,123 @@
+.right-side{
+    background: var(--darkest);
+
+    border: 0;
+    border-radius: 30px;
+
+    width: 250px;
+    height: 680px;
+
+    position: absolute;
+
+    left: 1650px;
+    top: 90px;
+    right: 0;
+    bottom: 0;  
+}
+
+.friend-request{
+    width: 250px;
+    height: 200px;
+
+    margin-top: 10px;
+
+    background: var(--dark);
+
+    border: 0;
+    border-radius: 30px;
+}
+
+.tag{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color:white;
+}
+
+.image-request{
+    display: flex;
+}
+
+.name-requestor{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+   
+}
+
+.darius{
+    font-size: 20px;
+    padding-right: 11px;
+    margin-top: 30px;
+    color: white;
+}
+
+.kumi{
+    font-size: 20px;
+    padding-right: 11px;
+    margin-top: 30px;
+    color: white;
+}
+
+.ohli{
+    font-size: 20px;
+    padding-right: 11px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.friend-request .cat{
+    width: 60px;
+    height: 60px;
+
+    border: 0;
+    border-radius: 50px;
+
+    margin: 10px;
+}
+
+
+.conbtn{
+    padding: 10px 15px 10px 15px;
+    width: 80px;
+
+    background: var(--darkest);
+
+    color: var(--pink);
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.conbtn:hover{
+    background: var(--gray);
+    color: var(--pink);
+}
+
+.delbtn{
+    padding: 10px 15px 10px 15px;
+    width: 80px;
+
+    background: rgb(187, 43, 43);
+
+    color: var(--pink);
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.delbtn:hover{
+    background: rgb(235, 105, 105);
+    color: var(--pink);
+}
+.name-requestor{
+    margin-left: 19px;
+    margin-top: 20px;
+
+    font-size: 20px;
+}

@@ -1,0 +1,19 @@
+
+.hero-main{
+    margin: 20px 20px;
+    font-family: 'fira sans', sans-serif;
+    display: flex;
+    align-content: center;
+
+}
+
+.hero-main .left-side{
+    border: 0px;
+    border-radius: 30px;
+    
+    height: 400px;
+    width: 250px;
+
+    background: var(--dark);
+}
+

@@ -1,0 +1,54 @@
+@import "./hero.css";
+@import "./nav.css";
+@import "./left-side.css";
+@import "./bottom-left.css";
+@import "./middle.css";
+@import "./newsfeed.css";
+@import "./right-side.css";
+
+:root{
+    --main-background: rgb(194, 190, 190);
+    --material-symbols-outlined: rgb(194, 190, 190);
+    --dark: #374151; 
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray: #6b7280;
+    --light: #EEE;
+    --pink: white;
+    --purple: #8b5cf6;
+
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'fira sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    height: 100vh;
+    background: var(--darker);
+    display: flex;
+    flex-direction: column;
+}
+
+.main .home{
+    height: 100vh;
+}
